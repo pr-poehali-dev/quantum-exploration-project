@@ -15,32 +15,32 @@ export function WorkSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Проекты
+            Тарифы
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Избранные работы</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Ценовые категории</p>
         </div>
 
         <div className="space-y-6 md:space-y-8">
           {[
             {
-              number: "01",
-              title: "ТехноСтарт",
-              category: "Корпоративный портал",
-              year: "2024",
+              number: "ЦК 1",
+              title: "Первая ценовая категория",
+              category: "Одноставочный тариф · для малого бизнеса",
+              year: "до 670 кВт·ч/мес",
               direction: "left",
             },
             {
-              number: "02",
-              title: "АльфаТрейд",
-              category: "Финтех платформа",
-              year: "2024",
+              number: "ЦК 2",
+              title: "Вторая ценовая категория",
+              category: "Двухставочный тариф · дифференциация по зонам суток",
+              year: "день / ночь",
               direction: "right",
             },
             {
-              number: "03",
-              title: "МедиаПульс",
-              category: "Медиа сервис",
-              year: "2023",
+              number: "ЦК 3–6",
+              title: "Третья–Шестая категории",
+              category: "Нерегулируемые цены · оптовый рынок электроэнергии",
+              year: "крупный бизнес",
               direction: "left",
             },
           ].map((project, i) => (

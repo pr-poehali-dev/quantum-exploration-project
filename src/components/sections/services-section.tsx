@@ -15,31 +15,31 @@ export function ServicesSection() {
           }`}
         >
           <h2 className="mb-2 font-sans text-5xl font-light tracking-tight text-foreground md:text-6xl lg:text-7xl">
-            Услуги
+            Как выбрать
           </h2>
-          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Наши компетенции</p>
+          <p className="font-mono text-sm text-foreground/60 md:text-base">/ Ключевые критерии выбора категории</p>
         </div>
 
         <div className="grid gap-8 md:grid-cols-2 md:gap-x-16 md:gap-y-12 lg:gap-x-24">
           {[
             {
-              title: "Веб-разработка",
-              description: "Создание современных веб-приложений любой сложности",
+              title: "Объём потребления",
+              description: "Первая ЦК — для потребителей до 670 кВт·ч в месяц. При росте потребления выгоднее переход на более высокую категорию",
               direction: "top",
             },
             {
-              title: "UI/UX Дизайн",
-              description: "Проектирование удобных и красивых интерфейсов",
+              title: "Режим работы",
+              description: "Наличие ночных и дневных смен открывает доступ ко второй ЦК с выгодным ночным тарифом",
               direction: "right",
             },
             {
-              title: "Мобильные приложения",
-              description: "Кроссплатформенная разработка для iOS и Android",
+              title: "Мощность присоединения",
+              description: "С третьей по шестую ЦК доступны потребителям, приобретающим мощность на оптовом рынке электроэнергии",
               direction: "left",
             },
             {
-              title: "Консалтинг",
-              description: "Техническая экспертиза и стратегическое планирование",
+              title: "Прогнозирование нагрузки",
+              description: "Шестая ЦК требует точного планирования — самостоятельное определение почасового графика потребления на месяц вперёд",
               direction: "bottom",
             },
           ].map((service, i) => (
